@@ -64,14 +64,14 @@ Template('stimuli.csv', currentrow =>
 			.print('center at 50%', 'bottom at 90%')
 		,
 
-		newTimer(1000)
+		newTimer('wait1', 1000)
 			.start()
 			.wait()
 		,
 		
 		getText(`cross`).remove(),
 		
-		newTimer(500)
+		newTimer('wait2', 500)
 			.start()
 			.wait()
 		,
