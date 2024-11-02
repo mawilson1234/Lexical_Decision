@@ -4,8 +4,8 @@
 // Brian Dillon, October 2021
 // CC-BY
 
-PennController.ResetPrefix(null); // Shorten command names (keep this)
-PennController.DebugOff();
+PennController.ResetPrefix(null) // Shorten command names (keep this)
+DebugOff()
 
 var centered_justified_style = {
 	'text-align': 'justify', 
@@ -64,14 +64,14 @@ Template('stimuli.csv', currentrow =>
 			.print('center at 50%', 'bottom at 90%')
 		,
 
-		newTimer('wait', 1000)
+		newTimer(1000)
 			.start()
 			.wait()
 		,
 		
 		getText(`cross`).remove(),
 		
-		newTimer('wait', 500)
+		newTimer(500)
 			.start()
 			.wait()
 		,
