@@ -4,6 +4,8 @@
 // Brian Dillon, October 2021
 // CC-BY
 
+// Updated slightly by Michael Wilson November 2024
+
 PennController.ResetPrefix(null) // Shorten command names (keep this)
 DebugOff()
 
