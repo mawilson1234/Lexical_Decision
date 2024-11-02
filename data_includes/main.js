@@ -87,7 +87,8 @@ Template('stimuli.csv', currentrow =>
 
 		newText(currentrow.WORD)
 			.css(trial_style)
-			.print('center at 50%', 'middle at 50%'),
+			.print('center at 50%', 'middle at 50%')
+		,
 
 		newKey('response', 'F', 'J')
 			.log('first')
