@@ -110,7 +110,7 @@ newTrial('end',
 	exitFullscreen()
 	,
 	
-	newText('The is the end of the experiment, you can now close this window. Thank you!')
+	newText('This is the end of the experiment, you can now close this window. Thank you!')
 		.css(trial_style)
 		.center()
 		.print('center at 50%', 'bottom at 80%')

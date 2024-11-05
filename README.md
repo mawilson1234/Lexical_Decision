@@ -1,5 +1,5 @@
-# Lexical decision lab for LINGUIST412/611 University of Massachusetts
+# Forced choice experiment for CGSC/LING 496/696 at University of Delaware
 
-This is a PCIbex implementation of a Lexical Decision task. The experimental stimuli to be presented should be entered into `chunk_includes/stimuli.csv`. The experiment records reaction times, button presses, and condition label for all stimuli.
+This is a PCIbex implementation of a Forced Choice task. The experimental stimuli to be presented should be entered into `chunk_includes`. Items are defined in `stimuli.csv`; any additional resources should be placed in this directory as well. The experiment records conditions, responses, and reaction times for all stimuli.
 
-This experiment is currently used as part of LINGUIST412 and LINGUIST611 (Momma & Dillon) at the University of Massachusetts Amherst. It is distributed under the GNU General Public License v3.0. It has been updated slightly for use with CGSC/LING 496/696 at the University of Delaware (Wilson).
+This experiment is currently used as part of CGSC/LING 496/696 at the University of Delaware. It is distributed under the GNU General Public License v3.0.
