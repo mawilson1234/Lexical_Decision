@@ -111,9 +111,9 @@ newTrial('end',
 	,
 	
 	newText('This is the end of the experiment, you can now close this window. Thank you!')
-		.css(trial_style)
+		.css(centered_justified_style)
 		.center()
-		.print('center at 50%', 'bottom at 80%')
+		.print()
 	,
 	
 	newButton()
